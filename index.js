@@ -168,7 +168,7 @@ function onClickHandler()
         };
         var isPalindrome=getPalindromeForAllDateFormats(date);
         if(isPalindrome){
-        output.innerText ="Hurray!!Your B-day is Palindrome😍😍";
+        output.textContent ="Hurray!!Your B-day is Palindrome😍😍";
         }
         else{
                 var [ctr,nextDate]=getNextPalindromeDate(date);
