@@ -158,6 +158,12 @@ function onClickHandler()
     console.log('clicked');
 
     var bdayStr=bdayInput.value;
+       if(bdayStr === "") {
+        output.textContent ="Please enter the date";
+    }
+
+      
+      
     if(bdayStr !== '')
     {
         var listOfDate=bdayStr.split('-');
