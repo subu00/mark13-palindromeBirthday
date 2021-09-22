@@ -52,5 +52,10 @@ button {
     cursor: pointer;
     background-color: var(--color-4);
 }
+.output {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
 
 
